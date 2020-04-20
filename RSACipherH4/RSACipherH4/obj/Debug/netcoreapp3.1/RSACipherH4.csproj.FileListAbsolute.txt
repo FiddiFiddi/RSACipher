@@ -1,0 +1,12 @@
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\bin\Debug\netcoreapp3.1\RSACipherH4.exe
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\bin\Debug\netcoreapp3.1\RSACipherH4.deps.json
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\bin\Debug\netcoreapp3.1\RSACipherH4.runtimeconfig.json
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\bin\Debug\netcoreapp3.1\RSACipherH4.runtimeconfig.dev.json
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\bin\Debug\netcoreapp3.1\RSACipherH4.dll
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\bin\Debug\netcoreapp3.1\RSACipherH4.pdb
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\obj\Debug\netcoreapp3.1\RSACipherH4.csprojAssemblyReference.cache
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\obj\Debug\netcoreapp3.1\RSACipherH4.AssemblyInfoInputs.cache
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\obj\Debug\netcoreapp3.1\RSACipherH4.AssemblyInfo.cs
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\obj\Debug\netcoreapp3.1\RSACipherH4.dll
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\obj\Debug\netcoreapp3.1\RSACipherH4.pdb
+C:\Code\RSACipher\RSACipherH4\RSACipherH4\obj\Debug\netcoreapp3.1\RSACipherH4.genruntimeconfig.cache

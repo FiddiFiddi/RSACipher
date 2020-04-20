@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACipherH4", "RSACipherH4\RSACipherH4.csproj", "{B9802167-F712-4317-9552-52FDD4EE476F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSADecipherH4", "RSADecipherH4\RSADecipherH4.csproj", "{218DA127-D12D-4415-8204-E5C05986446F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9802167-F712-4317-9552-52FDD4EE476F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9802167-F712-4317-9552-52FDD4EE476F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9802167-F712-4317-9552-52FDD4EE476F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9802167-F712-4317-9552-52FDD4EE476F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218DA127-D12D-4415-8204-E5C05986446F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218DA127-D12D-4415-8204-E5C05986446F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218DA127-D12D-4415-8204-E5C05986446F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218DA127-D12D-4415-8204-E5C05986446F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E8FC7AA-639A-4EB9-A981-3A9E9B5E24CF}
+	EndGlobalSection
+EndGlobal
