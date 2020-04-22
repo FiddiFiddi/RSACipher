@@ -9,7 +9,7 @@ namespace RSADecipherH4
         {
             Console.WriteLine("I AM A RECIEVER");
             Console.WriteLine("Welcome to RSA Communication");
-            SocketListener.StartServer();
+            SocketListener.StartTCPServer();
             Console.ReadLine();
         }
     }

@@ -66,8 +66,13 @@ namespace RSADecipherH4.Connection
 
                 int bytesRead = nwStream.Read(buffer, 0, client.ReceiveBufferSize);
 
-                string dataRecieved = Encoding.ASCII.GetString(buffer, 0, bytesRead);
-                Console.WriteLine($"Recieved Data: {dataRecieved}");
+                string dataRecieved = Convert.ToBase64String(buffer, 0, bytesRead);
+                Console.WriteLine("Data Recieved: " + dataRecieved);
+                byte[] data = new byte[bytesRead];
+                Array.Copy(buffer, 0, data, 0, bytesRead);
+                Cipher cipher = new Cipher();
+                var decryptedBytes = cipher.DecryptData(data);
+                Console.WriteLine("DECODED DATA: " + Encoding.ASCII.GetString(decryptedBytes));
 
                 client.Close();
             }

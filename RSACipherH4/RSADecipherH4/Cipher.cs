@@ -26,7 +26,6 @@ namespace RSADecipherH4
             csp.KeyContainerName = "KeyContainer";
             using (var rsa = new RSACryptoServiceProvider(2048, csp))
             {
-                rsa.PersistKeyInCsp = false;
                 plain = rsa.Decrypt(data, false);
             }
             return plain;

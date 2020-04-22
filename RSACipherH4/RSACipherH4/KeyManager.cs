@@ -18,7 +18,6 @@ namespace RSACipherH4
             var rsa = new RSACryptoServiceProvider(cspParams);
             rsa.PersistKeyInCsp = true;
         }
-
         public void DeleteKeyInCsp()
         {
             var cspParams = new CspParameters();

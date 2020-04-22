@@ -21,13 +21,14 @@ namespace RSACipherH4
 
             Console.WriteLine("Input text to reciever");
 
-            var input = Console.ReadLine();
-            var encryptedData = cipher.EncryptData(Encoding.UTF8.GetBytes(input));
+            Console.InputEncoding = Encoding.ASCII;
+            string input = Console.ReadLine();
+            byte[] encryptedData = cipher.EncryptData(Encoding.ASCII.GetBytes(input));
             Console.WriteLine($"{Convert.ToBase64String(encryptedData)}");
 
-            var decryptedText = cipher.DecryptData(encryptedData);
-            Console.WriteLine($"DecryptedText: {Encoding.UTF8.GetString(decryptedText)}");
-            SocketClient.StartClient(encryptedData);
+            byte[] decryptedData = cipher.DecryptData(encryptedData);
+            Console.WriteLine($"DecryptedText: {Encoding.ASCII.GetString(decryptedData)}");
+            SocketClient.StartTCPClient(encryptedData);
 
             Console.ReadLine();
             Console.WriteLine("Deleting Contained Key...");

@@ -8,8 +8,6 @@ namespace RSACipherH4.Connection
 {
     public class SocketClient
     {
-
-
         public static void StartClient(byte[] msg)
         {
             var bytes = new byte[4096];
@@ -35,9 +33,19 @@ namespace RSACipherH4.Connection
             }
         }
 
-        public static void StartTCPClient(string textToSend)
+        public static void StartTCPClient(byte[] bytesToSend)
         {
+            TcpClient client = new TcpClient("127.0.0.1", 420);
+            NetworkStream nwStream = client.GetStream();
 
+            nwStream.Write(bytesToSend, 0, bytesToSend.Length);
+
+            byte[] bytesToRead = new byte[client.ReceiveBufferSize];
+            int bytesRead = nwStream.Read(bytesToRead, 0, client.ReceiveBufferSize);
+
+
+            Console.WriteLine($"RECIEVED: {Encoding.ASCII.GetString(bytesToRead, 0, bytesRead)}");
+            client.Close();
         }
 
     }
